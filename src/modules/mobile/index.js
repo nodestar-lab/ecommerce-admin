@@ -1,31 +1,10 @@
 module.exports = {
-    identifier: "dashboard",
-    header: "Dashboard",
+    identifier: "mobile",
+    header: "Mobile",
     pageTitle: "Home",
     default: true,
     mType: "visual", // visual , listing
     items: [
-        {
-            type: "simpleCard",
-            display: {
-                ratio: "5:1",
-                autoplay: true,
-                autoplay_interval: 3000,
-                theme: "light"
-            },
-            items: [
-                {
-                    link: "../../../assets/images/one.jpg",
-                    height: "",
-                    width: ""
-                },
-                {
-                    link: "../../../assets/images/two.jpg",
-                    height: "",
-                    width: ""
-                }
-            ]
-        },
         {
             // this should be replace by the db call and take from the product manager
             //later movie this code to smaller modulecomponent

@@ -1,5 +1,5 @@
 module.exports = {
-    name: "Soft Tech",
-    type: "ecommerce",
-    version: 1.0
-}
+	name: "Soft Tech Admin",
+	type: "ecommerce",
+	version: 1.0
+};

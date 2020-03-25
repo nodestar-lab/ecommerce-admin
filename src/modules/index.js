@@ -1,5 +1,6 @@
 module.exports = [
-  require("./nav"),
-  require("./dashboard"),
-  require("./headBanner")
-]
+	require("./nav"),
+	require("./mobile"),
+	require("./dashboard"),
+	require("./headBanner")
+];
