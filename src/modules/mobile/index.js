@@ -4,12 +4,19 @@ module.exports = {
     pageTitle: "Home",
     default: true,
     mType: "visual", // visual , listing
+    access: { deny: ["user"], allow: ["admin"] },
     items: [
         {
             // this should be replace by the db call and take from the product manager
             //later movie this code to smaller modulecomponent
             type: "lister",
             display: {},
+            fields: ["src", "headers", "description"],
+            action: ["dashboard-edit", "dashboard-delete"],
+            /**
+            items  ; loop 
+            123454 item.src == 'flo' return {text : item.src , color : 'red', type : 'tag'}
+            **/
             items: [
                 {
                     src: "https://getuikit.com/docs/images/photo.jpg",

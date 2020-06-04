@@ -11,7 +11,8 @@ module.exports = {
         routes: "/src/routes/routers",
         template: "/src/templates",
         server: "/JageeraServer",
-        modulePath: "/src/modules"
+        modulePath: "/src/modules",
+        actionPath: "/src/actions"
     },
     google: {
         oauth2: {
