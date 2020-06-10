@@ -1,6 +1,11 @@
 module.exports = {
   mType: "nav",
   identifier: "navbar",
+  db_config: {
+    db: "default",
+    coll: "navbar" //specify collection
+  },
+  // filter: { is_active: true },
   items: [
     // {
     //     label: "Mobile",

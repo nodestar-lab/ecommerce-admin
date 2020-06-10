@@ -12,7 +12,9 @@ module.exports = {
         template: "/src/templates",
         server: "/JageeraServer",
         modulePath: "/src/modules",
-        actionPath: "/src/actions"
+        component_path: "/src/components",
+        actionPath: "/src/actions",
+        upload_dir: "../temp_ecom_admin"
     },
     google: {
         oauth2: {

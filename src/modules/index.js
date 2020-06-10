@@ -3,5 +3,6 @@ module.exports = [
 	require("./mobile"),
 	require("./dashboard"),
 	require("./inventory"),
-	require("./faculty")
+	require("./faculty"),
+	require("./profile")
 ];
