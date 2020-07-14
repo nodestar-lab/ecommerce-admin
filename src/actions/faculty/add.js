@@ -47,6 +47,11 @@ module.exports = {
 				key: "is_active",
 				label: "Is Active",
 				type: "checkbox"
+			},
+			{
+				key: "profile_pic",
+				label: "Profile",
+				type: "file"
 			}
 		]
 	},

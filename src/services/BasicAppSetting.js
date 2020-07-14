@@ -1,3 +1,4 @@
+const appConfig = require("../../config/app");
 class BasicAppSetting {
   constructor(config, jr) {
     this.config = config;
@@ -5,7 +6,6 @@ class BasicAppSetting {
     logger.info("[-BasicAppSetting] ");
   }
   handler(req, res) {
-    let appConfig = require("../../config/app");
     res.send(appConfig);
   }
 }
